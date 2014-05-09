@@ -7,4 +7,5 @@ require 'classifier/extensions/word_hash'
 
 class Object
 	def prepare_category_name; to_s.gsub("_"," ").capitalize.intern end
+	def prepare_category_name_to_s; to_s.gsub("_"," ").capitalize end
 end
