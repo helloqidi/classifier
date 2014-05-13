@@ -1,3 +1,4 @@
+# encoding: utf-8
 # Author::    David Fayram  (mailto:dfayram@lensmen.net)
 # Copyright:: Copyright (c) 2005 David Fayram II
 # License::   LGPL

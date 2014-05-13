@@ -156,11 +156,8 @@ module Classifier
     def save_state
       return if @redis==nil
       @storage[@key_name] = {:categories => @categories, :total_words => @total_words, :category_counts => @category_counts}
-      puts @storage
       #写入到redis中
       data = Marshal.dump(@storage)
-      puts @key_name
-      puts data
       @redis.set(@key_name, data)
     end
 

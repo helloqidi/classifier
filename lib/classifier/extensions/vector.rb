@@ -1,3 +1,4 @@
+# encoding: utf-8
 # Author::    Ernest Ellingson
 # Copyright:: Copyright (c) 2005 
 
