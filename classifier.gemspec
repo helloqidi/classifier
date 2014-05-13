@@ -2,7 +2,7 @@
 $:.push File.expand_path("../lib", __FILE__)
 require "classifier/version"
 
-Gem::Specification.new do |s|
+Gem::Classifier.new do |s|
   s.name        = "classifier"
   s.version     = Classifier::VERSION
   s.authors     = ["cardmagic"]
@@ -17,6 +17,10 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 1.9.1'
   
-  s.add_development_dependency "fast-stemmer"
-  s.add_development_dependency "rmmseg"
+  s.add_runtime_dependency "fast-stemmer"
+  s.add_runtime_dependency "rmmseg"
+  s.add_runtime_dependency "redis"
+
+  s.add_development_dependency "rake", ">= 0.9.2"
+
 end
