@@ -2,7 +2,7 @@
 $:.push File.expand_path("../lib", __FILE__)
 require "classifier/version"
 
-Gem::Classifier.new do |s|
+Gem::Specification.new do |s|
   s.name        = "classifier"
   s.version     = Classifier::VERSION
   s.authors     = ["cardmagic"]
