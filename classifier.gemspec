@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 1.9.1'
   
   s.add_runtime_dependency "fast-stemmer"
-  s.add_runtime_dependency "rmmseg"
+  s.add_runtime_dependency "rmmseg-cpp"
   s.add_runtime_dependency "redis"
 
   s.add_development_dependency "rake", ">= 0.9.2"
